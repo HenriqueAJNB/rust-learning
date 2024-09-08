@@ -1,4 +1,4 @@
-# Jogo da Forca em Rust (versão simplificada)
+# Jogo da Forca (versão simplificada)
 
 ## Descrição
 
@@ -17,9 +17,12 @@ O objetivo deste projeto é praticar a linguagem Rust, cobrindo conceitos fundam
 
 ## Como jogar
 
-O jogo foi construído em Windows. Para jogar, basta executar o arquivo `.\target\release\hangman-game.exe` no terminal. Não é necessário ter o Rust instalado para jogar.
+Caso queira compilar o projeto e rodá-lo, é necessário ter o Rust instalado. As instruções para instalação do Rust podem ser encontradas [neste link](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-linux-or-macos). 
 
-Caso queira compilar o projeto e rodá-lo em outro sistema operacional diferente do Windows, é necessário ter o Rust instalado. As instruções para instalação do Rust podem ser encontradas [neste link](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-linux-or-macos). Após instalar o Rust, para compilar o projeto, execute o comando `cargo build --release` no terminal. O arquivo executável será gerado em `./target/release/hangman-game`.
+Comando para rodar o projeto a partir da pasta raiz do repositório:
+```bash
+cargo run hangman-game
+```
 
 ## Exemplo de execução
 
